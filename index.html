@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Launch countdown timer</title>
+  </head>
+  <body>
+    <main class="main container">
+      <img src="images/bg-stars.svg" alt="" class="bg-stars" />
+      <div class="main__content">
+        <div class="main__title">
+          <h1>We're launching soon</h1>
+        </div>
+        <div class="main__countdown">
+          <div class="main__days main__timer">
+            <div class="main__timer_upper"></div>
+            <p class="main__timer_time"><span id="day"></span></p>
+            <div class="main__timer_down"></div>
+          </div>
+          <div class="main__hours main__timer">
+            <div class="main__timer_upper"></div>
+            <p class="main__timer_time"><span id="hour"></span></p>
+            <div class="main__timer_down"></div>
+          </div>
+          <div class="main__minutes main__timer">
+            <div class="main__timer_upper"></div>
+            <p class="main__timer_time"><span id="minute"></span></p>
+            <div class="main__timer_down"></div>
+          </div>
+          <div class="main__seconds main__timer">
+            <div class="main__timer_upper"></div>
+            <p class="main__timer_time"><span id="second"></span></p>
+            <div class="main__timer_down"></div>
+          </div>
+          <p class="main__desc">Days</p>
+          <p class="main__desc">Hours</p>
+          <p class="main__desc">Minutes</p>
+          <p class="main__desc">Seconds</p>
+        </div>
+        <div class="main__socials">
+          <img src="images/icon-facebook.svg" alt="" />
+          <img src="images/icon-pinterest.svg" alt="" />
+          <img src="images/icon-instagram.svg" alt="" />
+        </div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
